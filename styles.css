@@ -3,69 +3,31 @@
  	margin: 0px;
  	padding: 0px;
 }
+
 #header-text{
 	font-weight: bold;
 	font-family: verdana, arial, sans-serif;
-	color: black;
-	margin-left: 10px;
+	color: darkred;
+	margin-left: 40px;
 	margin-bottom: 30px;
 	font-size: 30pt;
 }
 
-
-#left-wrapper{
-	border-top: 1px solid grey;
-	margin-top: 20px;
-	padding-left: 20px;
-	font-family: verdana, arial, sans-serif;
-	display: inline-block;
-	vertical-align: top;
+.ninja-box{
+	/*border: 2px solid black;*/
+	margin: 10px;
+	background: white;
+	
 }
 
-#right-wrapper{
-	border-top: 1px solid grey;
-	margin-top: 20px;
-	margin-left: 50px;
-	font-family: verdana, arial, sans-serif;
-	text-align: center;
-	display: inline-block;
-	height: 300px;
-}
-
-#submit-button{
-	align-self: right;
-	margin-top: 20px;
-	width: 100px;
-}
-#add-form{
-	display: block;
-}
-
-.form-label{
-	display: block;
-	margin-top: 10px;
-	padding: 10px 0px 10px 0px;
-}
-
-#description{
-	width: 300px;
-	height: 100px;
-}
-
-.description-text{
-	font-family: verdana, arial, sans-serif;
-	text-align: center;
-	font-size: 12pt;
-
-}
-
-.contact-card{
-	border-radius: 15px;
+.ninja-img{
+	width: 200px;
+	height: 200px;
+	padding: 10px 10px 10px 10px;
 	border: 2px solid black;
-	/*margin: 10px;*/
-	margin-top: 10px;
-	margin-right: 10px;
-	width: 300px;
-	height: 100px;
-	padding-top: 10px;
+}
+
+#restore{
+
+	margin-top: 30px;
 }
